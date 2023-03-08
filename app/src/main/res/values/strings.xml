@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Produt-Registration</string>
+    <string name="productName" > Nome do produto </string>
+    <string name="productPrice" > Preço </string>
+    <string name="productVal" > Validade </string>
+    <string name="productQt" > Quantidade </string>
+    <string name="buttonRegist" > Cadastrar </string>
+    <string name="buttonList" > Listar </string>
+</resources>
