@@ -48,16 +48,19 @@ public class MainActivity extends AppCompatActivity {
         editTextQuantity = findViewById(R.id.extQuantity);
 
         String name = editTextName.toString();
-        double price = Double.parseDouble(editTextPrice.toString());
-        int validity = Integer.parseInt(editTextValidity.toString());
-        int quantity = Integer.parseInt(editTextQuantity.toString());
+        double price = Double.valueOf(editTextPrice.toString());
+        int validity = Integer.valueOf(editTextValidity.toString());
+        int quantity = Integer.valueOf(editTextQuantity.toString());
 
         products.add(new Product(name, price, validity, quantity));
     }
 
     public void listProducts(ArrayList<Product> p) {
         for(int i = 0; i < p.size(); i++) {
-            System.out.println(p.get(i));
+            System.out.println(p.get(i).getName());
+            System.out.println(p.get(i).getPrice());
+            System.out.println(p.get(i).getValidity());
+            System.out.println(p.get(i).getQuantity());
         }
     }
 
