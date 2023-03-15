@@ -31,8 +31,8 @@
         android:layout_weight="1"
         android:background="@android:color/holo_red_dark"
         android:ems="10"
+        android:hint="@string/productPrice"
         android:inputType="textPersonName"
-        android:text="@string/productPrice"
         app:layout_constraintBottom_toTopOf="@+id/extValidity"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etxtName" />
@@ -46,8 +46,8 @@
         android:layout_weight="1"
         android:background="@android:color/holo_red_dark"
         android:ems="10"
+        android:hint="@string/productVal"
         android:inputType="textPersonName"
-        android:text="@string/productVal"
         app:layout_constraintBottom_toTopOf="@+id/extQuantity"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etxPrice" />
@@ -61,8 +61,8 @@
         android:layout_weight="1"
         android:background="@android:color/holo_red_dark"
         android:ems="10"
+        android:hint="@string/productQt"
         android:inputType="textPersonName"
-        android:text="@string/productQt"
         app:layout_constraintBottom_toTopOf="@+id/btnRegist"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/extValidity" />

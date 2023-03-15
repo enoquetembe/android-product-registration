@@ -47,10 +47,10 @@ public class MainActivity extends AppCompatActivity {
         editTextValidity = findViewById(R.id.extValidity);
         editTextQuantity = findViewById(R.id.extQuantity);
 
-        String name = editTextName.toString();
-        double price = Double.valueOf(editTextPrice.toString());
-        int validity = Integer.valueOf(editTextValidity.toString());
-        int quantity = Integer.valueOf(editTextQuantity.toString());
+        String name = editTextName.getText().toString();
+        double price = Double.valueOf(editTextPrice.getText().toString());
+        int validity = Integer.valueOf(editTextValidity.getText().toString());
+        int quantity = Integer.valueOf(editTextQuantity.getText().toString());
 
         products.add(new Product(name, price, validity, quantity));
     }
